@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.sec {
+    position: relative;
+    width: 100%;
+    top: 70px;
+    /* min-height: 100vh; */
+    height: 600px;
+    background: linear-gradient(#03a9f4,#e91e63);
+}
+
+.custom-shape-divider-top-1616288593 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1616288593 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 248px;
+}
+
+.custom-shape-divider-top-1616288593 .shape-fill {
+    fill: #FFFFFF;
+}
