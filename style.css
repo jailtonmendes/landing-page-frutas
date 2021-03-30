@@ -34,3 +34,13 @@
 .custom-shape-divider-top-1616288593 .shape-fill {
     fill: #FFFFFF;
 }
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: red;  
+  clip-path: circle(600px at right 800px);
+}
